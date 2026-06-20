@@ -1,0 +1,8 @@
+# Ignore o ambiente virtual do python
+.venv/ 
+# Ignore arquivos de cache gerado automaticamente pelo python
+__pycache__/
+# Ignora arquivo com variáveis de ambiente, arquivos sensíveis (senhas, chaves configs.. etc)
+.env
+# Ignora arquivos compilados do python
+*.pyc
