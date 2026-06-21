@@ -1,0 +1,77 @@
+* {
+  margin: 0; /* remove a margem padrão*/
+  padding: 0; /* remove espaçamento padrão*/
+  box-sizing: border-box; /* tamanho */
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 100vh; /*ocupa toda a altura da tela*/
+
+  display: flex; /*ativa flexbox (controla posição, alinhamento e espaçamento*/
+
+  justify-content: center; /*centralização horizontal*/
+
+  align-items: center; /*centraliza vertical*/
+
+  background-color: #111827;
+
+}
+
+.card {
+  width: 350px;
+
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 12px; /*arredonda os cantos*/
+
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2); /*cria sombras*/
+
+  display: flex;
+
+  flex-direction: column; /* empilha verticalmente */
+
+  gap: 15px;
+
+}
+
+input {
+  padding:12px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+}
+
+/* EFEITO AO CLICAR*/
+
+input:focus {
+  outline: none;
+
+  border-color: #2563eb;
+}
+
+button {
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #2563eb;
+
+  color: white;
+
+  font-size: 16px;
+
+  cursor: pointer; /* mostra cursor "mãozinha" */
+
+  transition: 0.3s; /* animação */
+}
